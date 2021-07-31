@@ -19,6 +19,7 @@
     "bcrypt-pbkdf": "^1.0.2",
     "block-stream": "^0.0.9",
     "bnc-sdk": "^3.4.1",
+    "body-parser": "^1.19.0",
     "brace-expansion": "^1.1.11",
     "caseless": "^0.12.0",
     "chownr": "^1.1.4",
