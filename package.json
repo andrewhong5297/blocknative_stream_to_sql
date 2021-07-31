@@ -1,0 +1,12 @@
+{
+  "name": "blocknative_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andrewhong5297/blocknative_test.git",
+  "author": "andrewhong5297 <47720952+andrewhong5297@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bnc-sdk": "^3.4.1",
+    "sqlite3": "^5.0.2"
+  }
+}
