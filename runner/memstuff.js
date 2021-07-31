@@ -2,6 +2,7 @@ const BlocknativeSdk = require('bnc-sdk');
 const { uptime } = require('process');
 const WebSocket = require('ws');
 const { config } = require("./configuration.json")
+const axios = require('axios');
 require('dotenv').config()
 
 const handleTransactionEvent = event => {
@@ -12,6 +13,11 @@ const handleTransactionEvent = event => {
   
   console.log(transaction)
   console.log(emitterResult)
+
+  // const response = await axios.post('https://localhost:8000/newMint/', {
+  //     //parsedData
+  //   })
+  // console.log(response.status);
 }
 
 async function main() {

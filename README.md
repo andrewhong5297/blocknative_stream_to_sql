@@ -9,10 +9,6 @@
 
 ---
 
-## To query:
-
-use newest db explorer for sqlite [here](https://sqlitebrowser.org/blog/version-3-12-2-released/)
-
 ## To test:
 
 ```
@@ -22,3 +18,7 @@ node server/dbstuff.js
 ```
 node runner/memstuff.js
 ```
+
+## To query:
+
+use newest db explorer for sqlite [here](https://sqlitebrowser.org/blog/version-3-12-2-released/)
