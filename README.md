@@ -8,7 +8,7 @@ Make sure to use this repo as a template, click that big green button at the top
 4. Start up your ngrok + express server with `node server/backend.js`
 5. Go to your [local ngrok dashboard](http://127.0.0.1:4040/inspect/http) and copy the https link of the public ngrok link found under the inspect tab.
 6. Then go to blocknative accounts page and use that link (**and be sure to add the POST endpoint to the end of the link**) to create a webhook following this [gif tutorial](https://cdn.discordapp.com/attachments/871103550414016612/871109785070747728/Kapture_2021-07-31_at_15.14.15.gif). Instead of the address added in the tutorial, add whichever address you want to track. This should match with the ones you already created subscriptions and filters for in step 1.
-7. Use newest db explorer for sqlite [here](https://sqlitebrowser.org/blog/version-3-12-2-released/) and check the sqlite db to see if everything is working (for me that was running `SELECT * FROM artblocks_mints`). You will need to adjust the CREATE and INSERT statements for the variables you want to parse from the POST request.
+7. Use newest db explorer for sqlite [here](https://sqlitebrowser.org/blog/version-3-12-2-released/) and check the sqlite db to see if everything is working (for me that was running `SELECT * FROM mempool`). You will need to adjust the CREATE and INSERT statements for the variables you want to parse from the POST request.
 8. ???
 9. profit
 
